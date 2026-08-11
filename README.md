@@ -127,8 +127,6 @@ This is a native **KiCad 10** project — the schematic is split hierarchically 
 │
 ├── ESP32_IOT_BOARD_GERBER/       # Exported Gerber/drill files for fabrication
 ├── Libraries/                    # Custom footprints and symbols
-├── dfm/                          # Design-for-manufacturing check outputs
-│
 ├── BOM.csv                       # Bill of materials
 ├── fp-lib-table                  # Footprint library table
 ├── sym-lib-table                 # Symbol library table
