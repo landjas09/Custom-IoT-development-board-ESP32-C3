@@ -8,6 +8,11 @@ A custom-designed IoT development board built around the **ESP32-C3-WROOM-02**, 
 
 This board was designed as a general-purpose sensor/data-logging platform for IoT applications — combining wireless connectivity (WiFi/BLE via the ESP32-C3), multiple onboard sensors, local storage, and rechargeable battery power into a single compact PCB.
 
+## Aplications:
+IoT edge devices for environmental monitoring.
+Battery-powered data logging systems.
+Prototyping platform for ESP32-based projects.
+
 **Key design goals:**
 - Fully USB-C powered and rechargeable (no external charger required)
 - Onboard environmental, light, and audio sensing
