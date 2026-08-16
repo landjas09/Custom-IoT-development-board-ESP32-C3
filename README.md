@@ -113,7 +113,7 @@ ESP32 SCL ──┬──▶ BME280 SCL
 
 - **Schematic capture & PCB layout:** KiCad 10
 - **Simulation/verification:** KiCad ERC & DRC (Electrical Rules Checker / Design Rules Checker)
-- **Firmware:** currently being migrated to **Zephyr RTOS**
+- **Firmware:** successfully migrated to **Zephyr RTOS**
 - **Hardware config tools:** Silicon Labs Simplicity Studio (for one-time CP2102N GPIO/TXT-RXT configuration)
 
 ---
@@ -154,7 +154,6 @@ This is a native **KiCad 10** project — the schematic is split hierarchically 
 ## Planned Additions
 
 - **DS3231SN** real-time clock (I²C) for accurate timestamping of logged sensor data, independent of network time availability.
-- **Firmware port to Zephyr RTOS** — moving off Arduino/ESP-IDF to Zephyr for driver/threading support and longer-term maintainability.
 - **Enclosure design (SolidWorks)** — case built around the board's exported KiCad STEP file, with cutouts for the USB-C port, BOOT/EN buttons, status LEDs, SD card slot, and a light-transmissive window over the ambient light sensor.
 
 ---
